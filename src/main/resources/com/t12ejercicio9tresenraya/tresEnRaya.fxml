@@ -11,7 +11,6 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.t12ejercicio9tresenraya.Controller">
    <children>
       <VBox alignment="CENTER_LEFT" prefHeight="120.0" prefWidth="560.0" spacing="20.0" style="-fx-border-color: black;">
@@ -24,13 +23,13 @@
             <HBox prefHeight="25.0" prefWidth="200.0" spacing="10.0">
                <children>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="1st Player O" />
-                  <TextField fx:id="fieldPlayer1" editable="false" prefWidth="50.0" />
+                  <TextField fx:id="fieldPlayer1" alignment="CENTER" editable="false" prefWidth="50.0" text="0" />
                </children>
             </HBox>
             <HBox prefHeight="25.0" prefWidth="538.0" spacing="10.0">
                <children>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="2nd Player X" />
-                  <TextField fx:id="fieldPlayer2" editable="false" prefWidth="50.0" />
+                  <TextField fx:id="fieldPlayer2" alignment="CENTER" editable="false" prefWidth="50.0" text="0" />
                </children>
             </HBox>
          </children>
@@ -38,7 +37,7 @@
             <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
          </padding>
       </VBox>
-      <GridPane prefHeight="246.0" prefWidth="560.0">
+      <GridPane fx:id="panelBotones" prefHeight="246.0" prefWidth="560.0">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -63,8 +62,8 @@
       </GridPane>
       <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
          <children>
-            <Button fx:id="botonReset" mnemonicParsing="false" onAction="#pulsadoBoton" text="Reset" />
-            <Button fx:id="botonStart" mnemonicParsing="false" onAction="#pulsadoBoton" text="Start" />
+            <Button fx:id="botonReset" mnemonicParsing="false" text="Reset" />
+            <Button fx:id="botonStart" mnemonicParsing="false" text="Start" />
          </children>
       </HBox>
    </children>
