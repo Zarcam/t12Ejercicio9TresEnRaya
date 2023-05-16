@@ -23,13 +23,13 @@
             <HBox prefHeight="25.0" prefWidth="200.0" spacing="10.0">
                <children>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="1st Player O" />
-                  <TextField fx:id="fieldPlayer1" alignment="CENTER" editable="false" prefWidth="50.0" text="0" />
+                  <TextField fx:id="fieldPlayer1" alignment="CENTER" editable="false" focusTraversable="false" prefWidth="50.0" text="0" />
                </children>
             </HBox>
             <HBox prefHeight="25.0" prefWidth="538.0" spacing="10.0">
                <children>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="2nd Player X" />
-                  <TextField fx:id="fieldPlayer2" alignment="CENTER" editable="false" prefWidth="50.0" text="0" />
+                  <TextField fx:id="fieldPlayer2" alignment="CENTER" editable="false" focusTraversable="false" prefWidth="50.0" text="0" />
                </children>
             </HBox>
          </children>
@@ -49,15 +49,15 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pulsadoBoton" />
-            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pulsadoBoton" GridPane.columnIndex="1" />
-            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pulsadoBoton" GridPane.columnIndex="2" />
-            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pulsadoBoton" GridPane.rowIndex="1" />
-            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pulsadoBoton" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pulsadoBoton" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pulsadoBoton" GridPane.rowIndex="2" />
-            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pulsadoBoton" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pulsadoBoton" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button focusTraversable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pulsadoBoton" />
+            <Button focusTraversable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pulsadoBoton" GridPane.columnIndex="1" />
+            <Button focusTraversable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pulsadoBoton" GridPane.columnIndex="2" />
+            <Button focusTraversable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pulsadoBoton" GridPane.rowIndex="1" />
+            <Button focusTraversable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pulsadoBoton" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button focusTraversable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pulsadoBoton" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button focusTraversable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pulsadoBoton" GridPane.rowIndex="2" />
+            <Button focusTraversable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pulsadoBoton" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button focusTraversable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pulsadoBoton" GridPane.columnIndex="2" GridPane.rowIndex="2" />
          </children>
       </GridPane>
       <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
